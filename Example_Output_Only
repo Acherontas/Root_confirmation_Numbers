@@ -1,0 +1,43 @@
+Examples
+the same number with a random number and a random square result set 
+enter number : 457456
+
+enter result of sqrt number : 12
+
+enter precision : 12
+
+want to change the result num to the precise square root result number ? 
+the square root result number based on math.h is : 676.354936405
+press 1 to change or 0 to leave as is 
+0
+using only the integer part of the number 
+457456 / 9 ::== 50828.4444444
+50828 / 12 ::== 4235.66666667
+12 / 9 ::== 1.33333333333
+
+without intpart 
+457456 /9 ::== 50828.4444444
+50828.4444444 / 12 ::== 4235.7037037
+12 /  9 ::== 1.33333333333
+
+the same number with the autocorrection 
+
+enter number : 457456
+
+enter result of sqrt number : 12
+
+enter precision : 12
+
+want to change the result num to the precise square root result number ? 
+the square root result number based on math.h is : 676.354936405
+press 1 to change or 0 to leave as is 
+1
+using only the integer part of the number 
+457456 / 9 ::== 50828.4444444
+50828 / 676 ::== 75.1893491124
+676 / 9 ::== 75.1111111111
+
+without intpart 
+457456 /9 ::== 50828.4444444
+50828.4444444 / 676.354936405 ::== 75.1505484895
+676.354936405 /  9 ::== 75.1505484895
