@@ -33,7 +33,7 @@ int main(int argc,char** argv)
     long double calculate_root;
     calculate_root=sqrt(sqrt_num);
     cout<<"want to change the result num to the precise square root result number ? \n";
-    cout<<"the square root result number based on math.h is : " << calculate_root <<"\n";
+    cout<<"the square root result number based on math.h is : " <<std::setprecision(preci) << calculate_root <<"\n";
     cout<<"press 1 to change or 0 to leave as is \n";
     int xc=-1;
     cin>>xc;
